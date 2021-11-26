@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "font";
+    src: url("fonts/font.otf")
+}
+
+html {
+    background: url(https://images.wallpaperscraft.com/image/single/christmas_toy_tree_christmas_131378_1920x1080.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#container {
+    color: white;
+    font-family: "font";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.time {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+#time {
+    text-align: center;
+    font-size: 3.7vw;
+}
+
+@media (max-width: 767px) {
+    .time {
+        font-size: 50px;
+    }
+    #time {
+        font-size: 35px;
+    }
+    .row {
+        margin-bottom: 15px
+    }
+}
