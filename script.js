@@ -13,12 +13,11 @@ var calcNewYear = setInterval(function() {
     days -= 7;
 
     document.getElementById("time").innerHTML =
-        "\nDays: " +
         days +
-        " Hours: " +
+        " Days " +
         hours +
-        " Minutes: " +
+        " Hours " +
         minutes +
-        " Seconds: " +
-        seconds;
+        " Minutes " +
+        seconds + " Seconds "
 });
