@@ -1,4 +1,4 @@
-# Christmas ountdown
+# Christmas Countdown
 
 
 ### Merry Christmas!
