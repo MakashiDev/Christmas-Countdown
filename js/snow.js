@@ -1,8 +1,3 @@
-/*!
-// Snow.js - v0.0.3
-// kurisubrooks.com
-*/
-
 // Amount of Snowflakes
 var snowMax = 100;
 
