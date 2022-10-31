@@ -15,6 +15,14 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
+    -o-backdrop-filter: blur(15px);
+    -ms-backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 32px;
+    width: calc(fit-content- 40px);
 }
 
 .time-container {
